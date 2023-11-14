@@ -1,0 +1,15 @@
+
+*.json
+*.png
+*.traineddata
+*.jpg
+d4lf_v2.2.2/d4lf.exe
+d4lf_v2.2.2/log/log.txt
+d4lf_v2.2.2/README.md
+d4lf_v2.2.2/assets/tessdata/ocr_config.txt
+d4lf_v2.2.2/config/game_1920x1080.ini
+d4lf_v2.2.2/config/game_2560x1080.ini
+d4lf_v2.2.2/config/game_2560x1440.ini
+d4lf_v2.2.2/config/game_3440x1440.ini
+d4lf_v2.2.2/config/game_3840x2160.ini
+d4lf_v2.2.2/config/game_5120x1440.ini
