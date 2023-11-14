@@ -35,6 +35,9 @@ Affixes:
         - [movement_speed]
         - [cold_resistance]
         - [fire_resistance]
+        - [lightning_resistance]
+        - [poison_resistance]
+        - [shadow_resistance]
         - [damage_reduction_while_injured]
       minAffixCount: 3
 
