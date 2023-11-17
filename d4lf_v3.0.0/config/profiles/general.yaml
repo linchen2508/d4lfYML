@@ -16,6 +16,8 @@ Aspects:
   - [aspect_of_the_umbral, 4]
   - [conceited_aspect, 25]
   - [starlight_aspect, 39]
+  - [aspect_of_elements, 30]
+  - [exploiters_aspect, 40]
 
 
 # Find all affix keys in "config/affixes.json". Resource of possible affixes: https://d4builds.gg/database/gear-affixes/
