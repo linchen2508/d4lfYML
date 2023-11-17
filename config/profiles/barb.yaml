@@ -1,13 +1,8 @@
-Aspect: 
-  # Thorn barb
-  - [needleflare_aspect, 40]
-  - death_wish_aspect 
-  - [aspect_of_berserk_ripping, 30]
-  - [bold_chieftain's_aspect, 1.9]
 
-# HOTA barb
-# =====================================
 Affixes:
+  # HOTA barb
+  # =====================================
+
   - Helm:
       itemType: helm
       minPower: 780
@@ -15,7 +10,7 @@ Affixes:
         - [cooldown_reduction]
         - [total_armor]
         - [maximum_life]
-      minAffixCount: 3
+      minAffixCount: 2
 
   - Armor:
       itemType: [chest armor, pants]
@@ -59,22 +54,12 @@ Affixes:
         - [movement_speed]
       minAffixCount: 3
 
-  - Ring1:
+  - Ring:
       itemType: ring
       minPower: 780
       affixPool:
         - [critical_strike_chance]
         - [maximum_fury]
-        - [damage_while_berserking]
-        - [resource_generation]
-      minAffixCount: 3
-
-  - Ring2:
-      itemType: ring
-      minPower: 780
-      affixPool:
-        - [critical_strike_chance]
-        - [overpower_damage]
         - [damage_while_berserking]
         - [resource_generation]
       minAffixCount: 3
@@ -98,59 +83,3 @@ Affixes:
         - [all_stats]
         - [strength]
       minAffixCount: 3
- #============================================================= 
-  # Thorn barb
-  # =============================================
-  - GlovesThorn:
-      itemType: gloves
-      minPower: 780
-      affixPool:
-        - [all_stats]
-        - [attack_speed]
-        - [strength]
-        - [damage_to_injured_enemies]
-      minAffixCount: 3
-
-  - WeaponThornTwoHanded:
-      itemType: [two-handed mace, two-handed sword, two-handed axe]
-      minPower: 900
-      affixPool:
-        - [damage_while_berserking]
-        - [damage_to_close_enemies]
-        - [all_stats]
-        - [strength]
-      minAffixCount: 3
-
-  - WeaponThornDualWield:
-      itemType: [sword, axe, mace]
-      minPower: 900
-      affixPool:
-        - [damage_while_berserking]
-        - [damage_to_close_enemies]
-        - [all_stats]
-        - [strength]
-      minAffixCount: 3
-
-  - Amulet:
-      itemType: amulet
-      minPower: 780
-      affixPool:
-        - [cooldown_reduction]
-        - [ranks_of_the_tough_as_nails_passive]
-        - [strength]
-        - [movement_speed]
-      minAffixCount: 3
-
-  - RingThorn:
-      itemType: ring
-      minPower: 780
-      affixPool:
-        - [maximum_life]
-        - [damage_to_close_enemies]
-        - [damage_while_berserking]
-        - [physical_damage]
-      minAffixCount: 3
-
-  
-
-
