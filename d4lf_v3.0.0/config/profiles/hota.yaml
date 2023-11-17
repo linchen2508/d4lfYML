@@ -1,0 +1,87 @@
+Aspects:
+  - [earthstrikers_aspect, 50]
+  - [aspect_of_ancestral_force, 15]
+  - [aspect_of_limitless_rage, 30]
+  - [aspect_of_unrelenting_fury, 30]
+  - [bold_chieftains_aspect, 1.5]
+
+Affixes:
+  # HOTA barb
+  # =====================================
+
+  - Helm:
+      itemType: helm
+      minPower: 780
+      affixPool:
+        - [cooldown_reduction]
+        - [total_armor]
+        - [maximum_life]
+      minAffixCount: 2
+
+  - Armor:
+      itemType: [chest armor, pants]
+      minPower: 780
+      affixPool:
+        - [damage_reduction_from_close_enemies]
+        - [damage_reduction_while_fortified]
+        - [overpower_damage_with_twohanded_bludgeoning_weapons]
+        - [total_armor]
+        - [maximum_life]
+        - [damage_reduction]
+      minAffixCount: 3
+
+  - Gloves:
+      itemType: gloves
+      minPower: 780
+      affixPool:
+        - [attack_speed]
+        - [ranks_of_hammer_of_the_ancients]
+        - [critical_strike_chance]
+        - [overpower_damage]
+      minAffixCount: 3
+
+  - Boots:
+      itemType: boots
+      minPower: 780
+      affixPool:
+        - [movement_speed]
+        - [fury_cost_reduction]
+        - [poison_resistance]
+        - [fire_resistance]
+        - [lightning_resistance]
+      minAffixCount: 3
+
+  - Ring:
+      itemType: ring
+      minPower: 780
+      affixPool:
+        - [critical_strike_chance]
+        - [overpower_damage]
+        - [maximum_fury]
+        - [damage_while_berserking]
+        - [resource_generation]
+        - [physical_damage]
+        - [maximum_life]
+      minAffixCount: 3
+
+  - WeaponClose:
+      itemType: [two-handed mace, two-handed sword, two-handed axe]
+      minPower: 900
+      affixPool:
+        - [damage_while_berserking]
+        - [overpower_damage]
+        - [all_stats]
+        - [strength]
+        - [damage_to_close_enemies]
+      minAffixCount: 3
+
+  - WeaponClose2:
+      itemType: [sword, axe, mace]
+      minPower: 900
+      affixPool:
+        - [damage_while_berserking]
+        - [overpower_damage]
+        - [all_stats]
+        - [strength]
+        - [damage_to_close_enemies]
+      minAffixCount: 3
