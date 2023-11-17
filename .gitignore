@@ -1,3 +1,10 @@
 assets
 log
 d4lf.exe
+README.md
+config/game_1920x1080.ini
+config/game_2560x1080.ini
+config/game_2560x1440.ini
+config/game_3440x1440.ini
+config/game_3840x2160.ini
+config/game_5120x1440.ini

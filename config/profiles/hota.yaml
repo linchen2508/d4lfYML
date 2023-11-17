@@ -1,5 +1,14 @@
+Aspects:
+  - [earthstrikers_aspect, 50]
+  - [aspect_of_ancestral_force, 15]
+  - [aspect_of_limitless_rage, 30]
+  - [aspect_of_unrelenting_fury, 30]
+  - [bold_chieftains_aspect, 1.5]
 
 Affixes:
+  # HOTA barb
+  # =====================================
+
   - Helm:
       itemType: helm
       minPower: 780
@@ -18,7 +27,7 @@ Affixes:
         - [overpower_damage_with_twohanded_bludgeoning_weapons]
         - [total_armor]
         - [maximum_life]
-        - [damage_reduction_while_injured]
+        - [damage_reduction]
       minAffixCount: 3
 
   - Gloves:
@@ -37,18 +46,9 @@ Affixes:
       affixPool:
         - [movement_speed]
         - [fury_cost_reduction]
-        - [damage_reduction_while_injured]
-      minAffixCount: 3
-
-  - Amulet:
-      itemType: amulet
-      minPower: 780
-      affixPool:
-        - [cooldown_reduction]
-        - [fury_cost_reduction]
-        - [ranks_of_the_counteroffensive_passive]
-        - [total_armor]
-        - [movement_speed]
+        - [poison_resistance]
+        - [fire_resistance]
+        - [lightning_resistance]
       minAffixCount: 3
 
   - Ring:
@@ -56,9 +56,12 @@ Affixes:
       minPower: 780
       affixPool:
         - [critical_strike_chance]
+        - [overpower_damage]
         - [maximum_fury]
         - [damage_while_berserking]
         - [resource_generation]
+        - [physical_damage]
+        - [maximum_life]
       minAffixCount: 3
 
   - WeaponClose:
@@ -69,14 +72,16 @@ Affixes:
         - [overpower_damage]
         - [all_stats]
         - [strength]
+        - [damage_to_close_enemies]
       minAffixCount: 3
 
   - WeaponClose2:
-      itemType: [dagger, sword, axe, mace]
+      itemType: [sword, axe, mace]
       minPower: 900
       affixPool:
         - [damage_while_berserking]
         - [overpower_damage]
         - [all_stats]
         - [strength]
+        - [damage_to_close_enemies]
       minAffixCount: 3
