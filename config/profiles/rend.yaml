@@ -24,7 +24,7 @@ Affixes:
         - [damage_reduction_from_close_enemies]
         - [damage_reduction]
         - [total_armor]
-        - [dodge_chance]]
+        - [dodge_chance]
         - [damage_reduction_from_enemies_that_are_bleeding]
       minAffixCount: 3
 

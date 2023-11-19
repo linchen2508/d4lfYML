@@ -7,7 +7,7 @@ Affixes:
         - [cooldown_reduction]
         - [total_armor]
         - [maximum_life]
-      minAffixCount: 2
+      minAffixCount: 3
 
   - Armor:
       itemType: [chest armor, pants]

@@ -11,6 +11,9 @@ Aspects:
   - [aspect_of_ultimate_shadow, 1200]
   - [aspect_of_explosive_mist, 0.4]
   - [aspect_of_decay, 40]
+  - [aspect_of_torment, 120]
+
+
 
 
 Affixes:
@@ -24,7 +27,7 @@ Affixes:
         - [lucky_hit_chance]
         - [critical_strike_chance, 5.5]
         - [lucky_hit_up_to_a_chance_to_restore_primary_resource]
-        - [critical_strike_damage_with_bone_skills]
+        - [critical_strike_damage_with_bone_skills, 12]
       minAffixCount: 3
 
   - BootsBonespear:
@@ -34,6 +37,7 @@ Affixes:
         - [movement_speed, 12]
         - [ranks_of_corpse_tendrils, 3]
         - [essence_cost_reduction, 5]
+        - [intelligence]
       minAffixCount: 3
 
   - AmuletBonespear:
@@ -48,6 +52,7 @@ Affixes:
         - [essence_cost_reduction, 12]
         - [movement_speed]
         - [ranks_of_the_evulsion_passive, 2]
+        - [intelligence]
       minAffixCount: 3
 
   - RingBonespear:
@@ -66,6 +71,7 @@ Affixes:
       itemType: [dagger, sword, wand]
       minPower: 915
       affixPool:
+        - [intelligence]
         - [critical_strike_damage]
         - [critical_strike_damage_with_bone_skills]
         - [core_skill_damage]
