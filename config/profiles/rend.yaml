@@ -1,0 +1,83 @@
+# Rend PvP Barbarian: https://maxroll.gg/d4/planner/kzb860mr
+Aspect: 
+  - [relentless_berserkers_aspect]
+  - [assimilation_aspect, 8]
+  - [aspect_of_limitless_rage]
+
+Affixes:
+  - Gloves:
+      itemType: gloves
+      minPower: 800
+      affixPool:
+        - [attack_speed, 7]
+        - [critical_strike_chance, 6]
+        - [ranks_of_rend, 3]
+        - [physical_damage_over_time, 15]
+        - [all_stats]
+      minAffixCount: 3
+
+  - Armor:
+      itemType: [chest armor, pants]
+      minPower: 800
+      affixPool:
+        - [damage_reduction_from_distant_enemies]
+        - [damage_reduction_from_close_enemies]
+        - [damage_reduction]
+        - [total_armor]
+        - [dodge_chance]]
+        - [damage_reduction_from_enemies_that_are_bleeding]
+      minAffixCount: 3
+
+  - Boots:
+      itemType: boots
+      minPower: 800
+      affixPool:
+        - [movement_speed]
+        - [damage_reduction_while_injured]
+        - [dodge_chance]
+        - [all_stats]
+        - [fury_cost_reduction]
+      minAffixCount: 3
+
+  - WeaponTwoHanded:
+      itemType: [two-handed mace, two-handed axe]
+      minPower: 900
+      affixPool:
+        - [damage_while_berserking]
+        - [vulnerable_damage]
+        - [core_skill_damage]
+        - [all_stats]
+        - [strength]
+      minAffixCount: 3
+
+  - WeaponDualWield:
+      itemType: [axe]
+      minPower: 900
+      affixPool:
+        - [damage_while_berserking]
+        - [vulnerable_damage]
+        - [core_skill_damage]
+        - [all_stats]
+        - [strength]
+      minAffixCount: 3
+
+  - Amulet:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [cooldown_reduction]
+        - [damage_reduction]
+        - [ranks_of_the_cut_to_the_bone_passive]
+        - [damage_reduction_from_enemies_that_are_bleeding]
+      minAffixCount: 3
+
+  - Ring:
+      itemType: ring
+      minPower: 800
+      affixPool:
+        - [damage_to_close_enemies]
+        - [damage_while_berserking]
+        - [vulnerable_damage]
+        - [resource_regeneration]
+        - [maximum_life]
+      minAffixCount: 3

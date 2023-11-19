@@ -15,7 +15,9 @@ Aspects:
   - [ghostwalker_aspect, 25]
   - [aspect_of_the_umbral, 4]
   - [conceited_aspect, 25]
-  - [starlight_aspect, 39]
+  - [starlight_aspect, 35]
+  - [exploiters_aspect, 40]
+  - [aspect_of_elements, 30]
 
 
 # Find all affix keys in "config/affixes.json". Resource of possible affixes: https://d4builds.gg/database/gear-affixes/
@@ -31,7 +33,7 @@ Aspects:
 Affixes:
   - Helm:
       itemType: helm
-      minPower: 725
+      minPower: 800
       affixPool:
         - [basic_skill_attack_speed, 6]
         - [cooldown_reduction, 5]
@@ -41,7 +43,7 @@ Affixes:
 
   - Gloves:
       itemType: gloves
-      minPower: 725
+      minPower: 800
       affixPool:
         - [attack_speed, 7]
         - [lucky_hit_chance, 7.8]
@@ -50,7 +52,7 @@ Affixes:
 
   - Armor:
       itemType: [chest armor, pants]
-      minPower: 725
+      minPower: 800
       affixPool:
         - [damage_reduction_from_close_enemies, 10]
         - [damage_reduction_from_distant_enemies, 12]
@@ -61,32 +63,21 @@ Affixes:
         - [dodge_chance, 5.0]
       minAffixCount: 3
 
-  - Boots:
-      itemType: boots
-      minPower: 725
-      affixPool:
-        - [movement_speed, 16]
-        - [dodge_chance, 5]
-        - [dodge_chance_against_distant_enemies, 7]
-        - [energy_cost_reduction, 6]
-      minAffixCount: 3
-
   - Amulet:
       itemType: amulet
-      minPower: 725
+      minPower: 800
       affixPool:
         - [cooldown_reduction, 6]
         - [damage_reduction, 6]
         - [damage_reduction_from_close_enemies, 10]
         - [damage_reduction_from_distant_enemies, 12]
         - [total_armor, 9]
-        - [energy_cost_reduction, 6]
         - [movement_speed]
       minAffixCount: 3
 
   - Ring:
       itemType: ring
-      minPower: 725
+      minPower: 800
       affixPool:
         - [critical_strike_chance, 4]
         - [lucky_hit_chance, 5]

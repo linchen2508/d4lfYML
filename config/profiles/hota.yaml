@@ -1,30 +1,17 @@
 Aspects:
   - [earthstrikers_aspect, 50]
   - [aspect_of_ancestral_force, 15]
-  - [aspect_of_limitless_rage, 30]
+  - [aspect_of_limitless_rage]
   - [aspect_of_unrelenting_fury, 30]
   - [bold_chieftains_aspect, 1.5]
 
 Affixes:
-  # HOTA barb
-  # =====================================
-
-  - Helm:
-      itemType: helm
-      minPower: 780
-      affixPool:
-        - [cooldown_reduction]
-        - [total_armor]
-        - [maximum_life]
-      minAffixCount: 2
-
   - Armor:
       itemType: [chest armor, pants]
-      minPower: 780
+      minPower: 800
       affixPool:
         - [damage_reduction_from_close_enemies]
         - [damage_reduction_while_fortified]
-        - [overpower_damage_with_twohanded_bludgeoning_weapons]
         - [total_armor]
         - [maximum_life]
         - [damage_reduction]
@@ -32,7 +19,7 @@ Affixes:
 
   - Gloves:
       itemType: gloves
-      minPower: 780
+      minPower: 800
       affixPool:
         - [attack_speed]
         - [ranks_of_hammer_of_the_ancients]
@@ -42,18 +29,18 @@ Affixes:
 
   - Boots:
       itemType: boots
-      minPower: 780
+      minPower: 800
       affixPool:
         - [movement_speed]
-        - [fury_cost_reduction]
         - [poison_resistance]
-        - [fire_resistance]
+        - [cold_resistance]
         - [lightning_resistance]
+        - [shadow_resistance]
       minAffixCount: 3
 
   - Ring:
       itemType: ring
-      minPower: 780
+      minPower: 800
       affixPool:
         - [critical_strike_chance]
         - [overpower_damage]
