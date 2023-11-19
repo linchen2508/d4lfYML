@@ -1,0 +1,51 @@
+#Charge Bolt Sorc: https://d4builds.gg/builds/fa2366e0-3d05-4eef-ac3c-f40d24490fbf/
+Aspects:
+  - [aspect_of_fortune, 20]
+  - [aspect_of_piercing_static]
+  - [recharging_aspect, 2.0]
+  - [storm_swell_aspect, 25]
+
+Affixes:
+  - Helm:
+      itemType: helm
+      minPower: 850
+      affixPool:
+        - [cooldown_reduction, 5]
+        - [maximum_life, 580]
+        - [total_armor, 15]
+        - [lucky_hit_chance_while_you_have_a_barrier]
+      minAffixCount: 3
+      
+  - Gloves:
+      itemType: gloves
+      minPower: 800
+      affixPool:
+        - [attack_speed, 7]
+        - [lucky_hit_chance, 7.8]
+        - [critical_strike_chance, 5.5]
+        - [ranks_of_charged_bolts,]
+      minAffixCount: 3
+
+  - Armor:
+      itemType: [chest armor, pants]
+      minPower: 850
+      affixPool:
+        - [damage_reduction_from_close_enemies, 10]
+        - [damage_reduction_from_distant_enemies, 12]
+        - [damage_reduction_from_enemies_that_are_burning, 10]
+        - [damage_reduction, 5]
+        - [total_armor, 15]
+        - [maximum_life, 580]
+        - [ranks_of_ball_lightning, 3]
+      minAffixCount: 3
+
+  - Amulet:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [mana_cost_reduction, 14]
+        - [total_armor, 15]
+        - [ranks_of_all_mastery_skills, 2]
+        - [ranks_of_the_devouring_blaze_passive, 2]
+        - [movement_speed, 14]
+      minAffixCount: 3
