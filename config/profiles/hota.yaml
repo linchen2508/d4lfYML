@@ -49,6 +49,7 @@ Affixes:
         - [resource_generation]
         - [physical_damage]
         - [maximum_life]
+        - [damage_to_close_enemies]
       minAffixCount: 3
 
   - WeaponClose:
