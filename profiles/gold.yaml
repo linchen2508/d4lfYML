@@ -1,0 +1,109 @@
+# Find all affix keys in "config/affixes.json". Resource of possible affixes: https://d4builds.gg/database/gear-affixes/
+
+# Format is: [KEY, THRESHOLD, CONDITON]
+# CONDITON can be "larger" or "smaller" and defaults to "larger"
+
+# itemType must be any of:
+#   helm, chest armor, pants, gloves, boots, ring, amulet, axe, tow-handed axe,
+#   sword, two-handed sword, mace, two-handed mace, scythe, two-handed scythe,
+#   bow, bracers, crossbow, dagger, polarm, shield, stff, wand, offhand, totem
+# 
+# Items that sold for most gold on diablo.trade
+Affixes:
+  - AmuletRogue:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [damage_with_dualwielded_weapons, 15]
+        - [ranks_of_all_imbuement_skills, 2]
+        - [ranks_of_the_exploit_passive, 2]
+        - [total_armor, 17]
+        - [movement_speed, 15]
+      minAffixCount: 3
+
+  - AmuletSorc:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [ranks_of_the_elemental_dominance_passive, 2]
+        - [ranks_of_the_devouring_blaze_passive, 2]
+        - [ranks_of_the_conjuration_mastery_passive, 2]
+        - [ranks_of_the_glass_cannon_passive, 2]
+        - [ranks_of_all_defensive_skills, 2]
+        - [ranks_of_all_mastery_skills, 2]
+        - [total_armor, 17]
+        - [mana_cost_reduction, 14]
+        - [cooldown_reduction, 6]
+        - [movement_speed, 15]
+      minAffixCount: 3
+
+  - AmuletBarb:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [ranks_of_the_counteroffensive_passive, 2]
+        - [overpower_damage_with_twohanded_bludgeoning_weapons, 60]
+        - [total_armor, 17]
+        - [fury_cost_reduction, 14]
+        - [movement_speed, 15]
+      minAffixCount: 3
+
+  - AmuletNecro:
+      itemType: amulet
+      minPower: 800
+      affixPool:
+        - [ranks_of_the_evulsion_passive, 2]
+        - [cooldown_reduction, 6]
+        - [essence_cost_reduction, 14]
+        - [movement_speed, 15]
+      minAffixCount: 3
+
+  - WeaponHota:
+      itemType: [two-handed mace]
+      minPower: 925
+      affixPool:
+        - [damage_while_berserking, 25]
+        - [overpower_damage, 110]
+        - [all_stats, 46]
+        - [strength, 94]
+        - [damage_to_close_enemies, 40]
+      minAffixCount: 3
+
+  - Armor:
+      itemType: [chest armor]
+      minPower: 800
+      affixPool:
+        - [damage_reduction_from_close_enemies, 12]
+        - [damage_reduction_from_distant_enemies, 15]
+        - [damage_reduction_while_fortified, 9]
+        - [total_armor, 17]
+        - [maximum_life]
+        - [damage_reduction, 6.7]
+        - [damage_reduction_from_enemies_that_are_poisoned, 10]
+      minAffixCount: 3
+
+  - GlovesHota:
+      itemType: gloves
+      minPower: 800
+      affixPool:
+        - [attack_speed, 8]
+        - [ranks_of_hammer_of_the_ancients, 3]
+        - [critical_strike_chance, 6]
+        - [overpower_damage, 60]
+      minAffixCount: 3
+
+  - RingBarb:
+      itemType: ring
+      minPower: 800
+      affixPool:
+        - [critical_strike_chance, 4.2]
+        - [critical_strike_damage, 18]
+        - [overpower_damage, 40]
+        - [maximum_fury, 8]
+        - [damage_while_berserking, 12]
+        - [resource_generation, 10]
+        - [physical_damage, 15]
+        - [maximum_life]
+        - [damage_to_close_enemies, 20]
+        - [vulnerable_damage, 18]
+      minAffixCount: 3
