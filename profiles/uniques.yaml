@@ -1,25 +1,35 @@
 Uniques:
-  - aspect: [banished_lords_talisman]
-    minPower:
+  - aspect: [banished_lords_talisman, 120]
+    minPower: 925
     affixPool:
+        - [critical_strike_chance, 4]
+        - [overpower_damage, 25]
+        - [resource_generation, 10]
 
   - aspect: [fists_of_fate]
     minPower:
     affixPool:
 
-  - aspect: [flickerstep]
-    minPower:
+  - aspect: [flickerstep, 4]
+    minPower: 925
     affixPool:
+        - [all_stats, 10]
+        - [movement_speed, 16]
+        - [damage_reduction_from_close_enemies, 13]
 
   - aspect: [frostburn]
     minPower:
     affixPool:
 
-  - aspect: [godslayer_crown]
-    minPower:
+  - aspect: [godslayer_crown, 60]
+    minPower: 925
     affixPool:
+        - [damage, 17]
+        - [crowd_control_duration, 5]
+        - [maximum_life, 650]
+        - [cooldown_reduction, 6]
 
-  - aspect: [mothers_embrace]
+  - aspect: [mothers_embrace, 40]
     minPower:
     affixPool:
 
@@ -31,9 +41,13 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [soulbrand]
-    minPower:
+  - aspect: [soulbrand, 20]
+    minPower: 925
     affixPool:
+        - [lucky_hit_chance_while_you_have_a_barrier, 6]
+        - [barrier_generation, 10]
+        - [maximum_life, 750]
+        - [damage_reduction_from_close_enemies, 13]
 
   - aspect: [tassets_of_the_dawning_sky]
     minPower:
@@ -51,9 +65,13 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [xfals_corroded_signet]
-    minPower:
+  - aspect: [xfals_corroded_signet, 39000]
+    minPower: 925
     affixPool:
+        - [all_stats, 20]
+        - [damage_over_time, 15]
+        - [lucky_hit_chance, 4]
+        - [cooldown_reduction, 5]
 
   - aspect: [ahavarion_spear_of_lycander]
     minPower:
@@ -91,9 +109,13 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [azurewrath]
-    minPower:
+  - aspect: [azurewrath, 10000]
+    minPower: 925
     affixPool:
+        - [attack_speed, 8]
+        - [nonphysical_damage, 31]
+        - [core_skill_damage, 15]
+        - [damage_to_crowd_controlled_enemies, 10]
 
   - aspect: [battle_trance]
     minPower:
@@ -127,9 +149,14 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [tuskhelm_of_joritz_the_mighty]
-    minPower:
+  - aspect: [tuskhelm_of_joritz_the_mighty, 60]
+    minPower: 925
     affixPool:
+        - [attack_speed, 7]
+        - [damage_while_berserking, 10]
+        - [maximum_fury, 7]
+        - [ranks_of_the_aggressive_resistance_passive, 2]
+
 
   - aspect: [airidahs_inexorable_will]
     minPower:
@@ -287,9 +314,12 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [rainment_of_the_infinite]
-    minPower:
+  - aspect: [raiment_of_the_infinite, 2.9]
+    minPower: 800
     affixPool:
+        - [intelligence, 30]
+        - [damage_to_close_enemies, 19]
+        - [damage_to_stunned_enemies, 20]
 
   - aspect: [staff_of_endless_rage]
     minPower:

@@ -27,7 +27,7 @@ Affixes:
         - [attack_speed, 7]
         - [lucky_hit_chance, 7.8]
         - [critical_strike_chance, 5.5]
-        - [intelligence, 37]
+        - [intelligence, 30]
         - [lucky_hit_up_to_a_chance_to_restore_primary_resource, 12]
       minAffixCount: 3
 
