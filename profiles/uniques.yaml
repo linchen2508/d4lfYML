@@ -61,9 +61,12 @@ Uniques:
     minPower:
     affixPool:
 
-  - aspect: [tibaults_will]
-    minPower:
+  - aspect: [tibaults_will, 38]
+    minPower: 925
     affixPool:
+        - [damage_reduction_from_close_enemies, 10]
+        - [damage, 10]
+        - [maximum_resource, 9]
 
   - aspect: [xfals_corroded_signet, 39000]
     minPower: 925
@@ -155,7 +158,7 @@ Uniques:
         - [attack_speed, 7]
         - [damage_while_berserking, 10]
         - [maximum_fury, 7]
-        - [ranks_of_the_aggressive_resistance_passive, 2]
+        - [ranks_of_the_aggressive_resistance_passive, 3]
 
 
   - aspect: [airidahs_inexorable_will]
