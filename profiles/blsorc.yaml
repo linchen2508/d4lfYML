@@ -1,51 +1,55 @@
-#Ball Lightning Sorcerer Endgame - Patch 1.2.2
 Aspects:
   - [magelords_aspect, 9]
-  - [aspect_of_the_unwavering, 5]
+  - [aspect_of_the_unwavering, 6]
   - [gravitational_aspect, 25]
-  - [recharging_aspect, 2.0]
-  - [storm_swell_aspect, 25]
+  - [recharging_aspect, 2]
+  - [storm_swell_aspect, 30]
   - [everliving_aspect, 25]
   - [elementalists_aspect, 40]
-
+  - [aspect_of_splintering_energy, 50]
+  - [aspect_of_control, 35]
+  - [conceited_aspect, 25]
+  - [stable_aspect, 12]
 Affixes:
   - Helm:
-      itemType: helm
+      itemType:
+        - helm
       minPower: 850
+      minAffixCount: 3
       affixPool:
         - [cooldown_reduction, 5]
         - [maximum_life, 580]
         - [total_armor, 15]
         - [intelligence, 37]
         - [all_stats, 15]
-      minAffixCount: 3
-      
   - Gloves:
-      itemType: gloves
+      itemType:
+        - gloves
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [attack_speed, 7]
         - [lucky_hit_chance, 7.8]
         - [critical_strike_chance, 5.5]
         - [intelligence, 30]
         - [lucky_hit_up_to_a_chance_to_restore_primary_resource, 12]
-      minAffixCount: 3
-
+        - [all_stats]
   - Armor:
-      itemType: [chest armor, pants]
+      itemType:
+        - chest armor
       minPower: 850
+      minAffixCount: 3
       affixPool:
         - [damage_reduction_from_close_enemies, 10]
         - [damage_reduction_from_distant_enemies, 12]
         - [damage_reduction, 5]
         - [total_armor, 15]
         - [maximum_life, 580]
-        - [ranks_of_ball_lightning, 3]
-      minAffixCount: 3
-
   - Amulet:
-      itemType: amulet
+      itemType:
+        - amulet
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [cooldown_reduction, 6]
         - [mana_cost_reduction, 14]
@@ -53,34 +57,57 @@ Affixes:
         - [ranks_of_all_mastery_skills, 2]
         - [ranks_of_the_conjuration_mastery_passive, 2]
         - [movement_speed, 14]
-      minAffixCount: 3
-
+        - [ranks_of_the_devouring_blaze_passive, 2]
   - Ring:
-      itemType: ring
+      itemType:
+        - ring
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [critical_strike_chance, 3]
         - [damage_to_close_enemies, 17]
         - [resource_generation, 6]
         - [maximum_life, 580]
-      minAffixCount: 3
-
   - WeaponClose:
-      itemType: [dagger]
+      itemType:
+        - dagger
+        - wand
       minPower: 900
+      minAffixCount: 3
       affixPool:
         - [all_stats, 25]
         - [intelligence, 45]
         - [damage_to_close_enemies, 20]
         - [weapon_mastery_skill_damage, 17]
-      minAffixCount: 3
-
   - Focus:
-      itemType: [focus]
+      itemType:
+        - focus
       minPower: 890
+      minAffixCount: 3
       affixPool:
         - [cooldown_reduction, 5]
         - [resource_generation, 10]
         - [critical_strike_chance, 3]
         - [mana_cost_reduction, 5]
+        - [damage_reduction_from_enemies_that_are_burning]
+  - Pants:
+      itemType:
+        - pants
+      minPower: 825
       minAffixCount: 3
+      affixPool:
+        - [total_armor]
+        - [damage_reduction_from_distant_enemies]
+        - [ranks_of_ball_lightning, 3]
+        - [damage_reduction]
+        - [damage_reduction_from_enemies_that_are_burning]
+  - Boots:
+      itemType:
+        - boots
+      minPower: 825
+      minAffixCount: 3
+      affixPool:
+        - [ranks_of_frost_nova, 3]
+        - [ranks_of_teleport, 3]
+        - [mana_cost_reduction]
+        - [movement_speed]
