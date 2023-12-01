@@ -1,71 +1,81 @@
-# Thorn PvP Barbarian: https://maxroll.gg/d4/planner/2e2up00s
-Aspect:
-  - [needleflare_aspect, 40]
-  - [death_wish_aspect] 
-  - [aspect_of_berserk_ripping, 30]
-  - [bold_chieftain's_aspect, 1.9]
-
+Aspects:
+  - [death_wish_aspect, 5860]
+  - [aspect_of_elements, 30]
+  - [exploiters_aspect, 40]
+  - [aspect_of_inner_calm, 10]
+  - [rapid_aspect, 30]
+  - [aspect_of_might, 6]
+  - [starlight_aspect, 40]
 Affixes:
   - Gloves:
-      itemType: gloves
+      itemType:
+        - gloves
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [all_stats]
         - [attack_speed]
         - [strength]
         - [lucky_hit_chance]
-      minAffixCount: 3
-
   - Boots:
-      itemType: boots
+      itemType:
+        - boots
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [movement_speed]
         - [all_stats]
         - [strength]
         - [damage_reduction_while_injured]
-      minAffixCount: 3
-
   - WeaponTwoHanded:
-      itemType: [two-handed mace, two-handed axe]
+      itemType:
+        - two-handed mace
+        - two-handed axe
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [damage_while_berserking]
         - [damage_to_close_enemies]
         - [all_stats]
         - [strength]
-      minAffixCount: 3
-
   - WeaponDualWield:
-      itemType: [axe]
+      itemType:
+        - axe
       minPower: 900
+      minAffixCount: 3
       affixPool:
         - [damage_while_berserking]
         - [damage_to_close_enemies]
         - [all_stats]
         - [strength]
-      minAffixCount: 3
-
   - Amulet:
-      itemType: amulet
+      itemType:
+        - amulet
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [ranks_of_the_tough_as_nails_passive]
         - [strength]
         - [damage_reduction]
         - [damage_reduction_from_close_enemies]
-      minAffixCount: 3
-
   - RingThorn:
-      itemType: ring
+      itemType:
+        - ring
       minPower: 800
+      minAffixCount: 3
       affixPool:
         - [maximum_life]
         - [damage_to_close_enemies]
         - [damage_while_berserking]
         - [physical_damage]
+        - [resource_generation]
+  - Pants:
+      itemType:
+        - pants
+      minPower: 800
       minAffixCount: 3
-
-  
-
-
+      affixPool:
+        - [damage_reduction_from_close_enemies]
+        - [damage_reduction_from_enemies_that_are_bleeding]
+        - [damage_reduction]
+        - [total_armor]
