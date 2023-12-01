@@ -1,0 +1,76 @@
+Aspects:
+  - [aspect_of_shielding_storm, 5]
+  - [aspect_of_grasping_veins, 20]
+  - [ghostwalker_aspect, 25]
+  - [splintering_aspect, 2.5]
+  - [aspect_of_serration, 40]
+  - [aspect_of_might, 6]
+  - [aspect_of_exposed_flesh, 50]
+  - [conceited_aspect, 25]
+Affixes:
+  - Armor:
+      itemType:
+        - chest armor
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [damage_reduction_from_close_enemies]
+        - [damage_reduction]
+        - [damage_reduction_while_fortified]
+        - [maximum_life]
+        - [total_armor]
+  - Gloves:
+      itemType:
+        - gloves
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [ranks_of_bone_spear, 3]
+        - [attack_speed]
+        - [critical_strike_chance]
+        - [lucky_hit_up_to_a_chance_to_restore_primary_resource]
+  - Boots:
+      itemType:
+        - boots
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [all_stats]
+        - [essence_cost_reduction]
+        - [intelligence]
+        - [movement_speed]
+        - [damage_reduction_while_injured]
+  - Weapon1H:
+      itemType:
+        - sword
+      minPower: 925
+      minAffixCount: 0
+      affixPool:
+        - [core_skill_damage]
+        - [critical_strike_damage]
+        - [intelligence]
+        - [all_stats]
+  - Rings:
+      itemType:
+        - ring
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [maximum_life]
+        - [maximum_essence]
+        - [critical_strike_damage]
+        - [critical_strike_chance]
+  - Amulet:
+      itemType:
+        - amulet
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [ranks_of_the_compound_fracture_passive, 2]
+        - [ranks_of_the_imperfectly_balanced_passive, 2]
+        - [total_armor]
+        - [essence_cost_reduction]
+        - [intelligence]
+        - [movement_speed]
+        - [damage_reduction]
+        - [damage_reduction_while_fortified]
