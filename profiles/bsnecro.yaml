@@ -44,7 +44,7 @@ Affixes:
       itemType:
         - sword
       minPower: 925
-      minAffixCount: 0
+      minAffixCount: 3
       affixPool:
         - [core_skill_damage]
         - [critical_strike_damage]
