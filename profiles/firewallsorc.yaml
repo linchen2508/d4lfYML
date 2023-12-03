@@ -1,0 +1,68 @@
+Aspects:
+  - [snowveiled_aspect, 5]
+  - [exploiters_aspect, 40]
+  - [aspect_of_engulfing_flames, 40]
+  - [aspect_of_elements, 30]
+  - [storm_swell_aspect, 30]
+
+Affixes:
+  - Gloves:
+      itemType:
+        - gloves
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [attack_speed, 7]
+        - [lucky_hit_chance, 8]
+        - [intelligence, 35]
+        - [fire_damage_over_time, 16]
+  - Armor:
+      itemType:
+        - chest armor
+      minPower: 850
+      minAffixCount: 3
+      affixPool:
+        - [intelligence, 35]
+        - [damage_reduction, 5]
+        - [total_armor, 15]
+        - [maximum_life, 580]
+  - Amulet:
+      itemType:
+        - amulet
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [ranks_of_all_mastery_skills, 2]
+        - [ranks_of_the_glass_cannon_passive, 2]
+        - [ranks_of_all_defensive_skills, 2]
+        - [intelligence, 5]
+  - Ring:
+      itemType:
+        - ring
+      minPower: 800
+      minAffixCount: 3
+      affixPool:
+        - [fire_damage, 14]
+        - [lucky_hit_chance, 5]
+        - [critical_strike_damage, 18]
+        - [damage_over_time, 10]
+  - Weapon:
+      itemType:
+        - staff
+      minPower: 900
+      minAffixCount: 3
+      affixPool:
+        - [all_stats, 45]
+        - [intelligence, 85]
+        - [critical_strike_damage, 35]
+        - [weapon_mastery_skill_damage, 25]
+  - Boots:
+      itemType:
+        - boots
+      minPower: 825
+      minAffixCount: 3
+      affixPool:
+        - [ranks_of_flame_shield, 3]
+        - [ranks_of_teleport, 3]
+        - [intelligence, 30]
+        - [movement_speed, 14]
