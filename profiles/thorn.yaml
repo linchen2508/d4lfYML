@@ -1,11 +1,10 @@
 Aspects:
-  - [death_wish_aspect, 5860]
-  - [aspect_of_elements, 30]
-  - [exploiters_aspect, 40]
-  - [aspect_of_inner_calm, 10]
-  - [rapid_aspect, 30]
-  - [aspect_of_might, 6]
-  - [starlight_aspect, 40]
+  - [death_wish, 5860]
+  - [exploiters, 40]
+  - [of_inner_calm, 10]
+  - [rapid, 30]
+  - [of_might, 6]
+  - [starlight, 40]
 Affixes:
   - Gloves:
       itemType:
@@ -76,6 +75,6 @@ Affixes:
       minAffixCount: 3
       affixPool:
         - [damage_reduction_from_close_enemies]
-        - [damage_reduction_from_enemies_that_are_bleeding]
+        - [damage_reduction_from_bleeding_enemies]
         - [damage_reduction]
         - [total_armor]

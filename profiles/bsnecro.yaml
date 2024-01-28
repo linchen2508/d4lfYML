@@ -1,12 +1,12 @@
 Aspects:
-  - [aspect_of_shielding_storm, 5]
-  - [aspect_of_grasping_veins, 20]
-  - [ghostwalker_aspect, 25]
-  - [splintering_aspect, 2.5]
-  - [aspect_of_serration, 40]
-  - [aspect_of_might, 6]
-  - [aspect_of_exposed_flesh, 50]
-  - [conceited_aspect, 25]
+  - [of_shielding_storm, 5]
+  - [of_grasping_veins, 20]
+  - [ghostwalker, 25]
+  - [splintering, 2.5]
+  - [of_serration, 40]
+  - [of_might, 6]
+  - [of_exposed_flesh, 50]
+  - [conceited, 25]
 Affixes:
   - Armor:
       itemType:

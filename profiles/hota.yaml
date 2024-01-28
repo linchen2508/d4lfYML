@@ -1,9 +1,12 @@
 Aspects:
-  - [earthstrikers_aspect, 50]
-  - [aspect_of_ancestral_force, 15]
-  - [aspect_of_limitless_rage]
-  - [aspect_of_unrelenting_fury, 30]
-  - [bold_chieftains_aspect, 1.5]
+  - [earthstrikers, 50]
+  - [of_ancestral_force, 15]
+  - [of_limitless_rage, 2]
+  - [of_unrelenting_fury, 30]
+  - [bold_chieftains, 1.5]
+  - [of_elements, 25]
+  - [relentless_berserkers, 30]
+  - [iron_blood, 3]
 
 Affixes:
   - Armor:
@@ -25,6 +28,7 @@ Affixes:
         - [ranks_of_hammer_of_the_ancients]
         - [critical_strike_chance]
         - [overpower_damage]
+        - [strength]
       minAffixCount: 3
 
   - Boots:
@@ -36,6 +40,7 @@ Affixes:
         - [cold_resistance]
         - [lightning_resistance]
         - [shadow_resistance]
+        - [damage_reduction_while_injured, 25]
       minAffixCount: 3
 
   - Ring:
@@ -47,9 +52,9 @@ Affixes:
         - [maximum_fury]
         - [damage_while_berserking]
         - [resource_generation]
-        - [physical_damage]
         - [maximum_life]
         - [damage_to_close_enemies]
+    
       minAffixCount: 3
 
   - WeaponClose:

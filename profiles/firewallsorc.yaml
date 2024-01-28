@@ -1,9 +1,9 @@
 Aspects:
-  - [snowveiled_aspect, 5]
-  - [exploiters_aspect, 40]
-  - [aspect_of_engulfing_flames, 40]
-  - [aspect_of_elements, 30]
-  - [storm_swell_aspect, 30]
+  - [snowveiled, 5]
+  - [exploiters, 40]
+  - [of_engulfing_flames, 40]
+  - [of_elements, 30]
+  - [storm_swell, 30]
 
 Affixes:
   - Gloves:

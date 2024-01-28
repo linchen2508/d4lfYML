@@ -1,13 +1,13 @@
 Aspects:
-  - [aspect_of_numbing_wrath, 45]
-  - [assimilation_aspect, 10]
-  - [aspect_of_limitless_rage, 2]
-  - [starlight_aspect, 40]
-  - [aspect_of_might, 6]
-  - [ghostwalker_aspect, 25]
-  - [rapid_aspect, 30]
-  - [aspect_of_elements, 30]
-  - [wanton_rupture_aspect]
+  - [of_numbing_wrath, 45]
+  - [assimilation, 10]
+  - [of_limitless_rage, 2]
+  - [starlight, 40]
+  - [of_might, 6]
+  - [ghostwalker, 25]
+  - [rapid, 30]
+  - [of_elements, 30]
+  - [wanton_rupture]
 Affixes:
   - Gloves:
       itemType:
@@ -32,7 +32,7 @@ Affixes:
         - [damage_reduction]
         - [total_armor]
         - [dodge_chance]
-        - [damage_reduction_from_enemies_that_are_bleeding]
+        - [damage_reduction_from_bleeding_enemies]
   - Boots:
       itemType:
         - boots
@@ -76,7 +76,7 @@ Affixes:
         - [cooldown_reduction]
         - [damage_reduction]
         - [ranks_of_the_cut_to_the_bone_passive]
-        - [damage_reduction_from_enemies_that_are_bleeding]
+        - [damage_reduction_from_bleeding_enemies]
         - [damage_reduction_from_close_enemies]
   - Ring:
       itemType:
@@ -97,6 +97,6 @@ Affixes:
       affixPool:
         - [total_armor]
         - [damage_reduction]
-        - [damage_reduction_from_enemies_that_are_bleeding]
+        - [damage_reduction_from_bleeding_enemies]
         - [damage_reduction_from_close_enemies]
         - [damage_reduction_while_fortified]

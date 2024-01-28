@@ -1,19 +1,20 @@
 Aspects:
-  - [aspect_of_bursting_venoms]
-  - [aspect_of_corruption, 40]
-  - [aspect_of_elusive_menace, 7]
-  - [aspect_of_pestilent_points, 150]
-  - [aspect_of_noxious_ice, 29]
-  - [aspect_of_repeating, 45]
-  - [bladedancers_aspect, 15]
-  - [assimilation_aspect, 10]
-  - [cheats_aspect, 25]
-  - [energizing_aspect, 9]
-  - [enshrouding_aspect, 4]
-  - [frostbitten_aspect, 25]
-  - [manglers_aspect, 45]
-  - [ravenous_aspect, 65]
-  - [umbrous_aspect, 59]
+  - [of_bursting_venoms]
+  - [of_corruption, 40]
+  - [of_elusive_menace, 7]
+  - [of_pestilent_points, 150]
+  - [of_noxious_ice, 29]
+  - [of_repeating, 45]
+  - [bladedancers, 15]
+  - [assimilation, 10]
+  - [cheats, 25]
+  - [energizing, 9]
+  - [enshrouding, 4]
+  - [frostbitten, 25]
+  - [manglers, 45]
+  - [ravenous, 65]
+  - [umbrous, 59]
+  - [trickshot, 25]
 
 
 Affixes:
@@ -35,11 +36,11 @@ Affixes:
       minPower: 800
       affixPool:
         - [attack_speed, 7]
-        - [dexterity, 38]
         - [lucky_hit_chance, 7.8]
-        - [critical_strike_chance, 5.5]
+        - [critical_strike_chance, 6]
         - [ranks_of_twisting_blades, 3]
         - [ranks_of_rapid_fire, 3]
+        - [ranks_of_penetrating_shot, 3]
       minAffixCount: 3
 
   - Boots:
@@ -88,10 +89,10 @@ Affixes:
       affixPool:
         - [all_stats, 22]
         - [dexterity, 44]
-        - [core_skill_damage, 17]
         - [damage_to_close_enemies, 19]
         - [vulnerable_damage, 16]
-      minAffixCount: 2
+        - [damage_to_crowd_controlled_enemies, 9]
+      minAffixCount: 3
 
   - WeaponFar:
       itemType: [crossbow]
@@ -99,7 +100,7 @@ Affixes:
       affixPool:
         - [all_stats, 44]
         - [dexterity, 90]
-        - [core_skill_damage, 25]
         - [damage_to_close_enemies, 37]
         - [vulnerable_damage, 34]
+        - [damage_to_crowd_controlled_enemies, 15]
       minAffixCount: 3

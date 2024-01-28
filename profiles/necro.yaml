@@ -1,17 +1,17 @@
 Aspects:
-  - [aspect_of_the_void]
-  - [aspect_of_the_embalmer]
-  - [aspect_of_serration, 38]
-  - [aspect_of_grasping_veins, 18]
-  - [aspect_of_exposed_flesh, 48]
-  - [splintering_aspect, 58]
-  - [aspect_of_shielding_storm, 5]
-  - [blighted_aspect, 110]
-  - [bloodsoaked_aspect, 750]
-  - [aspect_of_ultimate_shadow, 1200]
-  - [aspect_of_explosive_mist, 0.4]
-  - [aspect_of_decay, 40]
-  - [aspect_of_torment, 120]
+  - [of_the_void]
+  - [of_the_embalmer]
+  - [of_serration, 38]
+  - [of_grasping_veins, 18]
+  - [of_exposed_flesh, 48]
+  - [splintering, 58]
+  - [of_shielding_storm, 5]
+  - [blighted, 110]
+  - [bloodsoaked, 750]
+  - [of_ultimate_shadow, 1200]
+  - [of_explosive_mist, 0.4]
+  - [of_decay, 40]
+  - [of_torment, 120]
 
 
 
@@ -91,7 +91,7 @@ Affixes:
         - [ranks_of_corpse_explosion, 3]
         - [total_armor]
         - [maximum_life]
-        - [damage_reduction_from_enemies_that_are_affected_by_shadow_damage_over_time]
+        - [damage_reduction_from_shadow_damage_over_timeaffected_enemies]
       minAffixCount: 3
 
   - GlovesInfi:
@@ -141,7 +141,7 @@ Affixes:
       minPower: 915
       affixPool:
         - [critical_strike_damage]
-        - [damage_to_affected_by_shadow_damage_over_time_enemies]
+        - [damage_reduction_from_shadow_damage_over_timeaffected_enemies]
         - [intelligence]
         - [vulnerable_damage]
       minAffixCount: 3
@@ -151,7 +151,7 @@ Affixes:
       minPower: 915
       affixPool:
         - [lucky_hit_chance, 5]
-        - [damage_to_affected_by_shadow_damage_over_time_enemies]
+        - [damage_reduction_from_shadow_damage_over_timeaffected_enemies]
         - [lucky_hit_chance]
         - [lucky_hit_chance_while_you_have_a_barrier]
       minAffixCount: 3
@@ -166,7 +166,7 @@ Affixes:
         - [damage_reduction]
         - [total_armor]
         - [maximum_life]
-        - [damage_reduction_from_enemies_that_are_affected_by_shadow_damage_over_time]
+        - [damage_reduction_from_shadow_damage_over_timeaffected_enemies]
       minAffixCount: 3
 
   - RingPentadot:

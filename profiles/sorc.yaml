@@ -1,10 +1,10 @@
 #Ball Lightning Sorcerer Endgame - Patch 1.2.2
 Aspects:
-  - [magelords_aspect, 8]
-  - [aspect_of_the_unwavering, 5]
-  - [gravitational_aspect, 25]
-  - [recharging_aspect, 2.5]
-  - [storm_swell_aspect, 25]
+  - [magelords, 8]
+  - [of_the_unwavering, 5]
+  - [gravitational, 25]
+  - [recharging, 2.5]
+  - [storm_swell, 25]
 
 Affixes:
   - Helm:

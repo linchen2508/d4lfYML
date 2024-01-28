@@ -1,9 +1,9 @@
 #Charge Bolt Sorc: https://d4builds.gg/builds/fa2366e0-3d05-4eef-ac3c-f40d24490fbf/
 Aspects:
-  - [aspect_of_fortune, 20]
-  - [aspect_of_piercing_static]
-  - [recharging_aspect, 2.0]
-  - [storm_swell_aspect, 25]
+  - [of_fortune, 20]
+  - [of_piercing_static]
+  - [recharging, 2.0]
+  - [storm_swell, 25]
 
 Affixes:
   - Helm:
@@ -32,7 +32,7 @@ Affixes:
       affixPool:
         - [damage_reduction_from_close_enemies, 10]
         - [damage_reduction_from_distant_enemies, 12]
-        - [damage_reduction_from_enemies_that_are_burning, 10]
+        - [damage_reduction_from_burning_enemies, 10]
         - [damage_reduction, 5]
         - [total_armor, 15]
         - [maximum_life, 580]

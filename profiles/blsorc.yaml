@@ -1,15 +1,15 @@
 Aspects:
-  - [magelords_aspect, 9]
-  - [aspect_of_the_unwavering, 6]
-  - [gravitational_aspect, 25]
-  - [recharging_aspect, 2]
-  - [storm_swell_aspect, 30]
-  - [everliving_aspect, 25]
-  - [elementalists_aspect, 40]
-  - [aspect_of_splintering_energy, 50]
-  - [aspect_of_control, 35]
-  - [conceited_aspect, 25]
-  - [stable_aspect, 12]
+  - [magelords, 9]
+  - [of_the_unwavering, 6]
+  - [gravitational, 25]
+  - [recharging, 2]
+  - [storm_swell, 30]
+  - [everliving, 25]
+  - [elementalists, 40]
+  - [of_splintering_energy, 50]
+  - [of_control, 35]
+  - [conceited, 25]
+  - [stable, 12]
 Affixes:
   - Helm:
       itemType:
@@ -89,7 +89,7 @@ Affixes:
         - [resource_generation, 10]
         - [critical_strike_chance, 3]
         - [mana_cost_reduction, 5]
-        - [damage_reduction_from_enemies_that_are_burning]
+        - [damage_reduction_from_burning_enemies]
   - Pants:
       itemType:
         - pants
@@ -100,7 +100,7 @@ Affixes:
         - [damage_reduction_from_distant_enemies]
         - [ranks_of_ball_lightning, 3]
         - [damage_reduction]
-        - [damage_reduction_from_enemies_that_are_burning]
+        - [damage_reduction_from_burning_enemies]
   - Boots:
       itemType:
         - boots

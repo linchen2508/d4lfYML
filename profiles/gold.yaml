@@ -79,7 +79,7 @@ Affixes:
         - [total_armor, 17]
         - [maximum_life]
         - [damage_reduction, 6.7]
-        - [damage_reduction_from_enemies_that_are_poisoned, 10]
+        - [damage_reduction_from_poisoned_enemies, 10]
       minAffixCount: 3
 
   - GlovesHota:
