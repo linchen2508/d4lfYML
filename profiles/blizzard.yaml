@@ -1,0 +1,93 @@
+Aspects:
+  - [glacial]
+  - [of_the_frozen_tundra]
+  - [juggernauts]
+  - [conceited, 25]
+  - [everliving, 25]
+Affixes:
+  - Helm:
+      itemType:
+        - helm
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [cooldown_reduction]
+        - [lucky_hit_chance_while_you_have_a_barrier]
+        - [maximum_life]
+        - [total_armor]
+  - Armor:
+      itemType:
+        - chest armor
+        - pants
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [damage_reduction]
+        - [damage_reduction_from_burning_enemies]
+        - [maximum_life]
+        - [total_armor]
+  - Gloves:
+      itemType:
+        - gloves
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [critical_strike_chance]
+        - [attack_speed]
+        - [lucky_hit_up_to_a_chance_to_restore_primary_resource]
+        - [lucky_hit_chance]
+  - Boots:
+      itemType:
+        - boots
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [movement_speed]
+        - [mana_cost_reduction]
+        - [ranks_of_frost_nova]
+        - [ranks_of_teleport]
+  - Amulet:
+      itemType:
+        - amulet
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [ranks_of_the_devouring_blaze_passive]
+        - [ranks_of_the_hoarfrost_passive]
+        - [cooldown_reduction]
+        - [lucky_hit_chance_while_you_have_a_barrier]
+        - [mana_cost_reduction]
+        - [movement_speed]
+  - Rings:
+      itemType:
+        - ring
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [critical_strike_chance]
+        - [lucky_hit_chance]
+        - [resource_generation]
+        - [critical_strike_damage]
+        - [maximum_life]
+  - 1H Wand:
+      itemType:
+        - wand
+        - dagger
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [intelligence]
+        - [all_stats]
+        - [critical_strike_damage]
+        - [vulnerable_damage]
+  - Offhand Focus:
+      itemType:
+        - focus
+      minPower: 1
+      minAffixCount: 2
+      affixPool:
+        - [lucky_hit_up_to_a_chance_to_restore_primary_resource]
+        - [cooldown_reduction]
+        - [critical_strike_chance]
+        - [resource_generation]
+        - [mana_cost_reduction]
