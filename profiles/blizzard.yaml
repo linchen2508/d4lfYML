@@ -4,12 +4,13 @@ Aspects:
   - [juggernauts]
   - [conceited, 25]
   - [everliving, 25]
+  - [ancient_flame]
 Affixes:
   - Helm:
       itemType:
         - helm
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
         - [cooldown_reduction]
         - [lucky_hit_chance_while_you_have_a_barrier]
@@ -19,18 +20,20 @@ Affixes:
       itemType:
         - chest armor
         - pants
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
         - [damage_reduction]
         - [damage_reduction_from_burning_enemies]
+        - [damage_reduction_from_close_enemies]
+        - [damage_reduction_from_distant_enemies]
         - [maximum_life]
         - [total_armor]
   - Gloves:
       itemType:
         - gloves
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
         - [critical_strike_chance]
         - [attack_speed]
@@ -39,8 +42,8 @@ Affixes:
   - Boots:
       itemType:
         - boots
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
         - [movement_speed]
         - [mana_cost_reduction]
@@ -49,11 +52,14 @@ Affixes:
   - Amulet:
       itemType:
         - amulet
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
-        - [ranks_of_the_devouring_blaze_passive]
-        - [ranks_of_the_hoarfrost_passive]
+        - [ranks_of_the_devouring_blaze_passive, 2]
+        - [ranks_of_the_hoarfrost_passive, 2]
+        - [rank_of_the_glass_cannon_passive, 2]
+        - [rank_of_the_icy_touch_passive, 2]
+        - [rank_of_all_defensive_skills, 2]
         - [cooldown_reduction]
         - [lucky_hit_chance_while_you_have_a_barrier]
         - [mana_cost_reduction]
@@ -61,8 +67,8 @@ Affixes:
   - Rings:
       itemType:
         - ring
-      minPower: 1
-      minAffixCount: 2
+      minPower: 800
+      minAffixCount: 3
       affixPool:
         - [critical_strike_chance]
         - [lucky_hit_chance]
@@ -73,8 +79,8 @@ Affixes:
       itemType:
         - wand
         - dagger
-      minPower: 1
-      minAffixCount: 2
+      minPower: 900
+      minAffixCount: 3
       affixPool:
         - [intelligence]
         - [all_stats]
@@ -83,8 +89,8 @@ Affixes:
   - Offhand Focus:
       itemType:
         - focus
-      minPower: 1
-      minAffixCount: 2
+      minPower: 900
+      minAffixCount: 3
       affixPool:
         - [lucky_hit_up_to_a_chance_to_restore_primary_resource]
         - [cooldown_reduction]
